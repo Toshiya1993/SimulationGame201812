@@ -13,6 +13,8 @@ namespace SimulationGame.Models.Entity
     {
         /// <summary>商品ID</summary>
         public int Id { get; private set; }
+        /// <summary>商品名</summary>
+        public string Name { get; private set; }
         /// <summary>値段</summary>
         public long Price { get; private set; }
 
@@ -20,10 +22,12 @@ namespace SimulationGame.Models.Entity
         /// コンストラクタ
         /// </summary>
         /// <param name="id">商品ID</param>
+        /// <param name="name">商品名</param>
         /// <param name="price">値段</param>
-        public ItemEntity(int id, long price)
+        public ItemEntity(int id, string name, long price)
         {
             this.Id = id;
+            this.Name = name;
             this.Price = price;
         }
     }
