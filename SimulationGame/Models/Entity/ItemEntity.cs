@@ -37,7 +37,7 @@ namespace SimulationGame.Models.Entity
         /// <returns>クローン</returns>
         public object Clone()
         {
-            return new ItemEntity(Id, Name, Price);
+            return new ItemEntity(this.Id, this.Name, this.Price);
         }
     }
 }
