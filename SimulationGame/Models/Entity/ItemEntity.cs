@@ -12,7 +12,7 @@ namespace SimulationGame.Models.Entity
     class ItemEntity : ICloneable
     {
         /// <summary>商品ID</summary>
-        public int Id { get; set; }
+        public int Id { get; private set; }
         /// <summary>商品名</summary>
         public string Name { get; private set; }
         /// <summary>値段</summary>
