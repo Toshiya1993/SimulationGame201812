@@ -1,6 +1,6 @@
 ﻿namespace SimulationGame
 {
-    partial class ShopManagement
+    partial class MainForm
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -159,7 +159,7 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "商売ログ";
             // 
-            // ShopManagement
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -179,7 +179,7 @@
             this.Controls.Add(this.listboxProducts);
             this.MaximumSize = new System.Drawing.Size(800, 600);
             this.MinimumSize = new System.Drawing.Size(800, 600);
-            this.Name = "ShopManagement";
+            this.Name = "MainForm";
             this.Text = "店舗経営ゲーム";
             this.ResumeLayout(false);
             this.PerformLayout();

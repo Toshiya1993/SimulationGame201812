@@ -16,7 +16,7 @@ namespace SimulationGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ShopManagement());
+            Application.Run(new MainForm());
         }
     }
 }

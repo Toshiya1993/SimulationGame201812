@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SimulationGame
 {
-    public partial class ShopManagement : Form
+    public partial class MainForm : Form
     {
-        public ShopManagement()
+        public MainForm()
         {
             InitializeComponent();
         }
