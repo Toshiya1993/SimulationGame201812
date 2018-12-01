@@ -9,7 +9,7 @@ namespace SimulationGame.Models.Entity
     /// <summary>
     /// 商品実体クラス
     /// </summary>
-    class ItemEntity
+    class ItemEntity : ICloneable
     {
         /// <summary>商品ID</summary>
         public int Id { get; private set; }
@@ -29,6 +29,15 @@ namespace SimulationGame.Models.Entity
             this.Id = id;
             this.Name = name;
             this.Price = price;
+        }
+
+        /// <summary>
+        /// クローン生成
+        /// </summary>
+        /// <returns>クローン</returns>
+        public object Clone()
+        {
+            return new ItemEntity(this.Id, this.Name, this.Price);
         }
     }
 }
